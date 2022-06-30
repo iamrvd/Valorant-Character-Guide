@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	background-color:#333333;
+	color: #F8F0E3;
+	padding: 10px;
+}
+
+#mainNav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#mainLogo{
+	width: 200px;
+	height:150px;
+	margin-bottom:15px;
+}
+
+.mainHeader{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #fa4454;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	font-weight: 600;
+	overflow: hidden;
+	background: linear-gradient(to left,#dc3d4b, #dc3d4b 50%, #fa4454 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 200% 100%;
+	background-position: 100%;
+}
+  
+a {
+	transition: background-position 275ms ease;
+}
+a:hover {
+	background-position: 0 100%;
+}
+  
+li {
+    margin-bottom: 20px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.thumbnail{
+	height: 150px;
+	width: 150px;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.headerTxt {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	color: #fa4454;
+	margin-bottom: 15px;
+}
+
+#mainImage{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#heroImage{
+	height: 275px;
+	width: 275px;
+	justify-content: center;
+	align-items: center;
+}
+
+#mainDiv{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.descriptionTxt{
+	font-size: 16px;
+	width: fit-content;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.thumbnail2{
+	height: 30px;
+	width: 30px;
+	padding: 20px;
+}
+
+.ability {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+#audio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.mainHeader{
+		font-size: 32px;
+	}
+	
+	.thumbnail{
+		height: 200px;
+		width: 200px;
+	}
+
+	#heroImage{
+		height: 700px;
+		width: 700px;
+	}
+
+	a {
+		font-size: 1.5em;
+	}
+
+	.headerTxt {
+		font-size: 28px;
+	}
+
+	.descriptionTxt{
+		font-size: 20px;
+	}
+
+	.thumbnail2{
+		height: 40px;
+		width: 40px;
+		padding: 20px;
+	}
+
+	.ability {
+		font-size: 24px;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.mainHeader{
+		font-size: 35px;
+	}
+	
+	.thumbnail{
+		height: 250px;
+		width: 250px;
+	}
+
+	#heroImage{
+		height: 1020px;
+		width: 1020px;
+	}
+
+	a {
+		font-size: 1.8em;
+	}
+
+	.headerTxt {
+		font-size: 32px;
+	}
+
+	.descriptionTxt{
+		font-size: 22px;
+	}
+
+	.thumbnail2{
+		height: 50px;
+		width: 50px;
+		padding: 20px;
+	}
+
+	.ability {
+		font-size: 26px;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	#heroImage{
+		height: 1400px;
+		width: 1400px;
+	}
+
+}
